@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Alandzo G. Coulanges</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="photo.jpg" alt="Portrait d'Alandzo" />
+    <h1>Alandzo Guillaudin Coulanges</h1>
+    <p>Étudiant en BTS SIO, spécialisé en infrastructure & réseau</p>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#bts">BTS SIO</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#stages">Stages</a></li>
+      <li><a href="#veille">Veille</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="presentation" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-user section-icon"></i>
+        Présentation
+      </h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3><i class="fas fa-graduation-cap"></i>À propos</h3>
+          <p>Je suis étudiant en deuxième année de BTS SIO option SISR. Passionné par l'informatique et les technologies réseau, je me forme aux métiers d'administrateur système, technicien réseau et cybersécurité.</p>
+          <p>Mon objectif est de devenir un expert en infrastructure IT, capable de concevoir, déployer et maintenir des systèmes robustes et sécurisés.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="bts" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-university section-icon"></i>
+        Qu'est-ce que le BTS SIO ?
+      </h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3><i class="fas fa-info-circle"></i> Présentation générale</h3>
+          <p>Le BTS SIO (Services Informatiques aux Organisations) est une formation en deux ans qui prépare aux métiers de l'informatique. Il propose deux spécialités : <strong>SISR</strong> pour l'administration des réseaux et systèmes, et <strong>SLAM</strong> pour le développement d'applications.</p>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-server"></i> Option SISR</h3>
+          <p>Solutions d'Infrastructure, Systèmes et Réseaux : gestion d'infrastructures réseaux et systèmes, sécurisation, virtualisation, support technique.</p>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-laptop-code"></i> Option SLAM</h3>
+          <p>Solutions Logicielles et Applications Métiers : développement d'applications web et mobiles, gestion de bases de données métiers.</p>
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-chart-line"></i> Débouchés</h3>
+          <ul>
+            <li>Administrateur systèmes et réseaux</li>
+            <li>Technicien support informatique</li>
+            <li>Responsable sécurité informatique</li>
+            <li>Consultant en infrastructures IT</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+        <section id="competences" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-cogs section-icon"></i>
+        Compétences
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3><i class="fas fa-network-wired"></i> Réseau</h3>
+          <p>Configuration et gestion des équipements réseau </p>
+        </div>
+        <div class="skill-card">
+          <h3><i class="fas fa-server"></i> Systèmes</h3>
+          <p>Windows Server, Linux, Administration</p>
+        </div>
+        <div class="skill-card">
+          <h3><i class="fas fa-shield-alt"></i> cybersécurité</h3>
+          <p>Sauvegarde, Pare-feu Pfsense, Droits</p>
+        </div>
+        <div class="skill-card">
+          <h3><i class="fas fa-cube"></i> Virtualisation</h3>
+          <p>VirtualBox, Containers, Hyper-V</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="parcours" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-road section-icon"></i>
+        Parcours
+      </h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3><i class="fas fa-calendar-alt"></i> Formation</h3>
+          <ul>
+            <li><strong>2021</strong> – Diplôme National du Brevet</li>
+            <li><strong>2024</strong> – Baccalauréat professionnel SN (Systèmes Numériques)</li>
+            <li><strong>2025</strong> – BTS SIO SISR (en cours)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+    <h2 class="section-title">
+      <i class="fas fa-project-diagram section-icon"></i>
+      Projets
+    </h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="projets-list">
+          <div class="projet-item">
+            <div class="projet-content">
+              <h3><i class="fas fa-network-wired"></i> Infrastructure réseau pour application Keep Fit</h3>
+              <p>Mise en place d'une infrastructure réseau virtualisée sur Hyper-V avec routeur Linux, Active Directory pour l'authentification, conteneurs Docker hébergeant SQL Server, PostgreSQL et Serveur WEB, et GLPI pour la gestion du parc.</p>
+            </div>
+          </div>
+          <div class="projet-item">
+            <div class="projet-content">
+              <h3><i class="fas fa-rss"></i> Création, Optimisation et Déploiement automatisé Windows 11</h3>
+              <p>Création d'un Master Windows 11 à l'aide d'outils d'optimisation (WinOpt) et de scripts Powershell. 
+                Mise en place d'une logique de déploiement conditionnelle selon l'emplacement des postes et sécurisation de l'image finale 
+                par capture de sauvegarde avec Acronis Cyber Protect.</p>
+            </div>
+          </div>
+          <div class="projet-item">
+            <div class="projet-content">
+              <h3><i class="fas fa-rss"></i> Veille informatique automatisée</h3>
+              <p>Mise en place d'une veille informatique automatisée avec des outils comme Zapier et Google Sheets. Collecte automatique d'articles de cybersécurité (IT-Connect, Korben, Zataz), classification CHAUD/FROID et génération de résumés IA pour suivre les actualités IT en temps réel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="stages" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-briefcase section-icon"></i>
+        Stages
+      </h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3><i class="fas fa-hospital"></i> Expériences professionnelles</h3>
+          <ul>
+            <li><strong>2022</strong> – Centre Hospitalier du Tonnerrois : Découverte des bases du réseau hospitalier</li>
+            <li><strong>2023</strong> – CHU de Dijon : Approfondissement des infrastructures critiques</li>
+            <li><strong>2023</strong> – Conseil régional BFC : Interventions et administration système</li>
+            <li><strong>2025</strong> – AMG Informatique : Préparation de commandes et interventions</li>
+            <li><strong>2026</strong> – Lycée Polyvalent privé Saint-Bénigne : Masterisation, scripting PowerShell et capture d'images via Acronis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION VEILLE AVEC RSS AUTOMATIQUE -->
+    <section id="veille" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-search section-icon"></i>
+        Veille Technologique
+      </h2>
+      
+      <!-- Indicateur de chargement -->
+      <div id="veille-loading" style="display: none; text-align: center; padding: 2rem; color: var(--accent);">
+        <i class="fas fa-spinner fa-spin" style="font-size: 2rem;"></i>
+        <p style="margin-top: 1rem;">Chargement des derniers articles...</p>
+      </div>
+      
+      <!-- Container des articles (VIDE au départ) -->
+      <div id="veille-container" class="card-grid">
+        <!-- Les articles seront injectés ici par JavaScript -->
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-envelope section-icon"></i>
+        Contact
+      </h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3><i class="fas fa-paper-plane"></i> Me contacter</h3>
+          <p><i class="fas fa-envelope"></i> Email : <a href="mailto:alandzoguillaudin@outlook.com">alandzoguillaudin@outlook.com</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> Localisation : Bourgogne-Franche-Comté</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alandzo Guillaudin Coulanges</p>
+    <p>
+      <a href="https://www.linkedin.com/in/alandzo-guillaudin-coulanges/" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://groupesb.sharepoint.com/sites/BTSSIO2026/_layouts/15/Doc.aspx?sourcedoc=%7Bd19f7864-7ec3-4fc2-a84a-990667434dc3%7D&action=view&wd=target%28ALANDZO+GUILLAUDIN+COULANGES%2FAutres+Mati%C3%A8res.one%7C0897cb92-8d6e-44a5-acfc-4b583732b3b1%2FVeille+informatique+automatis%C3%A9%7Cbba44cd9-9cc6-41d2-8ef2-b476d2486238%2F%29&wdorigin=703&wdpartid=%7Bc7717a17-fc9a-43bf-a9b9-443e287b0092%7D%7B17%7D&wdsectionfileid=%7B0897cb92-8d6e-44a5-acfc-4b583732b3b1%7D" target="_blank">
+        <i class="fas fa-book"></i> OneNote
+      </a>
+    </p>
+  </footer>
+
+  <!-- SCRIPT RSS POUR LA VEILLE -->
+  <script src="flux-veille.js"></script>
+
+  <!-- Animation au scroll (existant) -->
+  <script>
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.section').forEach(section => {
+      section.style.opacity = '0';
+      section.style.transform = 'translateY(30px)';
+      section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(section);
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    const title = document.querySelector('.header h1');
+    const originalText = title.textContent;
+    title.textContent = '';
+    
+    let i = 0;
+    const typeWriter = () => {
+      if (i < originalText.length) {
+        title.textContent += originalText.charAt(i);
+        i++;
+        setTimeout(typeWriter, 100);
+      }
+    };
+    
+    setTimeout(typeWriter, 1000);
+  </script>
+</body>
+</html>
